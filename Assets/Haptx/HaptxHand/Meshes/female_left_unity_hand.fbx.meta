@@ -1,0 +1,139 @@
+fileFormatVersion: 2
+guid: c5cc88fd1a4f3a0489673fd5010fa243
+timeCreated: 1533246583
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: female_left_hand_unity_mesh
+    100002: //RootNode
+    100004: index1
+    100006: index2
+    100008: index3
+    100010: index4
+    100012: middle1
+    100014: middle2
+    100016: middle3
+    100018: middle4
+    100020: pinky1
+    100022: pinky2
+    100024: pinky3
+    100026: pinky4
+    100028: ring1
+    100030: ring2
+    100032: ring3
+    100034: ring4
+    100036: root
+    100038: thumb1
+    100040: thumb2
+    100042: thumb3
+    100044: thumb4
+    400000: female_left_hand_unity_mesh
+    400002: //RootNode
+    400004: index1
+    400006: index2
+    400008: index3
+    400010: index4
+    400012: middle1
+    400014: middle2
+    400016: middle3
+    400018: middle4
+    400020: pinky1
+    400022: pinky2
+    400024: pinky3
+    400026: pinky4
+    400028: ring1
+    400030: ring2
+    400032: ring3
+    400034: ring4
+    400036: root
+    400038: thumb1
+    400040: thumb2
+    400042: thumb3
+    400044: thumb4
+    4300000: female_left_hand_unity_mesh
+    9500000: //RootNode
+    13700000: female_left_hand_unity_mesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SKM_VR_Female_R_Mat_FemaleHand
+    second: {fileID: 2100000, guid: 7b6a9bbc4bdc55042b423a0b82a2a44f, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

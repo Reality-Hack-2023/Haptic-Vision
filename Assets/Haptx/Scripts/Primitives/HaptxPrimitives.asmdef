@@ -1,0 +1,15 @@
+{
+    "name": "HaptxPrimitives",
+    "references": [
+        "GUID:20c9863c0b38cb24d845dcfcccb7e327"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

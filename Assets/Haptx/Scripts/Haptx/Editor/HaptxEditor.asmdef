@@ -1,0 +1,21 @@
+{
+    "name": "HaptxEditor",
+    "references": [
+        "GUID:d6ed8da25fff6d1498f07839f707dc51",
+        "GUID:4a7b3c2a97bfa5b4091e9a8048f9abec",
+        "GUID:20c9863c0b38cb24d845dcfcccb7e327"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "HaptxUnityShared.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
