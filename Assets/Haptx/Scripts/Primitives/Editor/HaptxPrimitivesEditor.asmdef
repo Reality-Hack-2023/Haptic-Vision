@@ -1,0 +1,19 @@
+{
+    "name": "HaptxPrimitivesEditor",
+    "references": [
+        "GUID:4b59d1ed6321d46449ee08ef120a75a9",
+        "GUID:4a7b3c2a97bfa5b4091e9a8048f9abec",
+        "GUID:20c9863c0b38cb24d845dcfcccb7e327"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

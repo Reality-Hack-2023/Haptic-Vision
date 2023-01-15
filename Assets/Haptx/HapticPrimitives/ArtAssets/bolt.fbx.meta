@@ -1,0 +1,143 @@
+fileFormatVersion: 2
+guid: 8a25e08fbfa808a4f93144c89fc6a343
+timeCreated: 1541187906
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: bolt
+    100004: UBX_bolt_00
+    100006: UBX_bolt_01
+    100008: UBX_bolt_02
+    100010: UBX_bolt_03
+    100012: UBX_bolt_04
+    100014: UBX_bolt_05
+    100016: UBX_bolt_06
+    100018: UBX_bolt_07
+    100020: UCX_bolt_00
+    400000: //RootNode
+    400002: bolt
+    400004: UBX_bolt_00
+    400006: UBX_bolt_01
+    400008: UBX_bolt_02
+    400010: UBX_bolt_03
+    400012: UBX_bolt_04
+    400014: UBX_bolt_05
+    400016: UBX_bolt_06
+    400018: UBX_bolt_07
+    400020: UCX_bolt_00
+    2300000: bolt
+    2300002: UBX_bolt_00
+    2300004: UBX_bolt_01
+    2300006: UBX_bolt_02
+    2300008: UBX_bolt_03
+    2300010: UBX_bolt_04
+    2300012: UBX_bolt_05
+    2300014: UBX_bolt_06
+    2300016: UBX_bolt_07
+    2300018: UCX_bolt_00
+    3300000: bolt
+    3300002: UBX_bolt_00
+    3300004: UBX_bolt_01
+    3300006: UBX_bolt_02
+    3300008: UBX_bolt_03
+    3300010: UBX_bolt_04
+    3300012: UBX_bolt_05
+    3300014: UBX_bolt_06
+    3300016: UBX_bolt_07
+    3300018: UCX_bolt_00
+    4300000: bolt
+    4300002: UBX_bolt_00
+    4300004: UBX_bolt_01
+    4300006: UBX_bolt_02
+    4300008: UBX_bolt_03
+    4300010: UBX_bolt_04
+    4300012: UBX_bolt_05
+    4300014: UBX_bolt_06
+    4300016: UBX_bolt_07
+    4300018: UCX_bolt_00
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 23c71e19bad165045a9805ec404c3a19, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

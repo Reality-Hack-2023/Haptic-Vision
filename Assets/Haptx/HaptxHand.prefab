@@ -1,0 +1,259 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3778649324450175686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9090496494090605540}
+  - component: {fileID: 7881212545765646090}
+  - component: {fileID: 910593677136551196}
+  m_Layer: 0
+  m_Name: HaptxHand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9090496494090605540
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3778649324450175686}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.23033851, y: 1.0146034, z: -0.14369494}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7881212545765646090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3778649324450175686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 0
+  serverOnly: 0
+  visible: 0
+  m_AssetId: d1a8d36700639ac4b9950116a9ae12c2
+  hasSpawned: 0
+--- !u!114 &910593677136551196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3778649324450175686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14d61774f431a3f41886b75bcc1c7e78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  hand: 0
+  boneNames:
+    thumb1:
+      _string: thumb1
+    thumb2:
+      _string: thumb2
+    thumb3:
+      _string: thumb3
+    thumb4:
+      _string: thumb4
+    index1:
+      _string: index1
+    index2:
+      _string: index2
+    index3:
+      _string: index3
+    index4:
+      _string: index4
+    middle1:
+      _string: middle1
+    middle2:
+      _string: middle2
+    middle3:
+      _string: middle3
+    middle4:
+      _string: middle4
+    ring1:
+      _string: ring1
+    ring2:
+      _string: ring2
+    ring3:
+      _string: ring3
+    ring4:
+      _string: ring4
+    pinky1:
+      _string: pinky1
+    pinky2:
+      _string: pinky2
+    pinky3:
+      _string: pinky3
+    pinky4:
+      _string: pinky4
+    palm:
+      _string: root
+  handScaleFactor: 1
+  linearDrive:
+    positionSpring: 110000
+    positionDamper: 1100
+    maximumForce: 110
+  angularDrive:
+    positionSpring: 63000000
+    positionDamper: 630000
+    maximumForce: 110
+  enableContactDamping: 1
+  maxContactDampingSeparation: 0.001
+  linearContactDamping: 0
+  angularContactDamping: 0.033
+  _overrideSolverIterations: 1
+  rigidbodySolverIterations: 32
+  rigidbodySolverVelocityIterations: 4
+  _overrideContactOffset: 1
+  _contactOffset: 0.005
+  handAnimOptimizationMode: 0
+  dynamicHandAnimRelDistThreshold: 0.5
+  enableGloveSlipCompensation: 1
+  gloveSlipCompensationParameters:
+    aggressiveness_1_s: 1
+    onThreshold: 0.95
+  enableThimbleCompensation: 1
+  thimbleCompensationParameters:
+    correctionDistThresholdM: 0.05
+    maxCorrectionDistM: 0.01
+    maxCorrectionAmountM: 0.01
+  enableCorrectiveTeleportation: 1
+  correctiveTeleportationDistance: 0.5
+  mocapOrigin: {fileID: 0}
+  simulatedAnimationAggressiveness_1_s: 10
+  fingerBodyParameters:
+    baseContactToleranceM: 0.005
+    complianceM_N: 0.000066
+  palmBodyParameters:
+    baseContactToleranceM: 0.005
+    complianceM_N: 0.000132
+  retractuatorParameters:
+    thumb:
+      actuationThresholdN: 0
+      filterStrengthS: 0.2
+      releaseThresholdN_S: 100
+    index:
+      actuationThresholdN: 0
+      filterStrengthS: 0.2
+      releaseThresholdN_S: 100
+    middle:
+      actuationThresholdN: 0
+      filterStrengthS: 0.2
+      releaseThresholdN_S: 100
+    ring:
+      actuationThresholdN: 0
+      filterStrengthS: 0.2
+      releaseThresholdN_S: 100
+    pinky:
+      actuationThresholdN: 0
+      filterStrengthS: 0.2
+      releaseThresholdN_S: 100
+  sphereTraceRadiusM: 0.00280625
+  _localHandsLayer:
+    value: 0
+  _remoteHandsLayer:
+    value: 0
+  physicsTargetsTransmissionFrequencyHz: 50
+  physicsTargetsBufferDurationS: 0.05
+  physicsStateTransmissionFrequencyHz: 50
+  physicsStateBufferDurationS: 0.05
+  _physicsAuthorityZoneRadiusM: 0.15
+  _physicsAuthorityZoneRadiusHysteresis: 0.1
+  _physicsAuthorityZoneLayer:
+    value: 2
+  forceFeedbackVisualizer:
+    visualize: 0
+    toggle:
+      key: 52
+      alt: 0
+      shift: 1
+      control: 0
+    forceScaleM_N: 0.00018
+  motionCaptureVisualizer:
+    visualize: 0
+    toggle:
+      key: 49
+      alt: 0
+      shift: 1
+      control: 0
+  handAnimationVisualizer:
+    visualize: 0
+    toggle:
+      key: 54
+      alt: 0
+      shift: 1
+      control: 0
+  displacementVisualizer:
+    visualize: 1
+    toggle:
+      key: 56
+      alt: 0
+      shift: 1
+      control: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    minDisplacementM: 0.02
+    maxDisplacementM: 0.05
+    maxOpacity: 0.05
+    opacityFilterStrengthS: 0.1
+  contactDampingVisualizer:
+    visualize: 0
+    toggle:
+      key: 48
+      alt: 0
+      shift: 1
+      control: 0
+  handMeshes:
+    leftFemaleHandPrefab: {fileID: 1217609056828392, guid: 3d3e7a418e8d6b14ca5e3db39d6bd690,
+      type: 3}
+    rightFemaleHandPrefab: {fileID: 1427306012288558, guid: 8b8187e86a243ee4786d301489fc186f,
+      type: 3}
+    leftMaleHandPrefab: {fileID: 1030780298432636, guid: 02fd24a853dc153488526c21021be579,
+      type: 3}
+    rightMaleHandPrefab: {fileID: 1993578533987288, guid: f0a6e229947deda4db4a39c01134f6df,
+      type: 3}
+  handMaterials:
+    lightFemaleHandMaterial: {fileID: 2100000, guid: ef1c36a92bb75a64fbaf57e16ee3f055,
+      type: 2}
+    mediumFemaleHandMaterial: {fileID: 2100000, guid: 51de8d4b1959ef0459ed3b1c01c47f59,
+      type: 2}
+    darkFemaleHandMaterial: {fileID: 2100000, guid: 3f2ef8999c3cec54b8d97d35f7899ac4,
+      type: 2}
+    neutralFemaleHandMaterial: {fileID: 2100000, guid: 18fc8a10c7f9042409294aebcf1bcd13,
+      type: 2}
+    lightMaleHandMaterial: {fileID: 2100000, guid: 9963e42bfefc1b54682071cd6ee9dbf7,
+      type: 2}
+    mediumMaleHandMaterial: {fileID: 2100000, guid: 04fa7551f43f009469603cc0970e27a5,
+      type: 2}
+    darkMaleHandMaterial: {fileID: 2100000, guid: df8ee68e3a79d894d993a90a90ffd1fc,
+      type: 2}
+    neutralMaleHandMaterial: {fileID: 2100000, guid: 18fc8a10c7f9042409294aebcf1bcd13,
+      type: 2}
+  progressSimulatedPoseAction:
+    actionPath: /actions/haptx/in/HxProgressSimulatedPose
+    needsReinit: 0
+  nextSimulatedPoseAction:
+    actionPath: /actions/haptx/in/HxNextSimulatedPose
+    needsReinit: 0
+  previousSimulatedPoseAction:
+    actionPath: /actions/haptx/in/HxPreviousSimulatedPose
+    needsReinit: 0

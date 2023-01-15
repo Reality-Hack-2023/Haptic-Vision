@@ -1,0 +1,19 @@
+{
+    "name": "Haptx",
+    "rootNamespace": "",
+    "references": [
+        "GUID:20c9863c0b38cb24d845dcfcccb7e327",
+        "GUID:30817c1a0e6d646d99c048fc403f5979",
+        "GUID:1fbf338ef6b952a448262a7ff7df5fe4",
+        "GUID:ba171b3dd2a51234ab864770f99741a5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

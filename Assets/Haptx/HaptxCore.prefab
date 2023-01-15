@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1873391669522200
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4859358244854730}
+  - component: {fileID: 114580763871944300}
+  m_Layer: 0
+  m_Name: HaptxCore
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4859358244854730
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873391669522200}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114580763871944300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873391669522200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1b1e06f97d60aa4093d31e9a8c9a8c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enableTactileFeedback: 1
+  _enableForceFeedback: 1
+  tactileFeedbackLayers:
+    serializedVersion: 2
+    m_Bits: 1
+  forceFeedbackLayers:
+    serializedVersion: 2
+    m_Bits: 1
+  _tactorCompressionFilterAttackRatio: 0
+  _tactorCompressionFilterReleaseRatio: 1.005
+  _enableGrasping: 1
+  graspLayers:
+    serializedVersion: 2
+    m_Bits: 1
+  _graspThreshold: 18
+  _releaseHysteresis: 0.75
+  graspLinearDrive:
+    positionSpring: 10000
+    positionDamper: 100
+    maximumForce: 3
+  pinchAngularDrive:
+    positionSpring: 1000000
+    positionDamper: 1000
+    maximumForce: 3
+  graspLinearLimits:
+    xMotion: 2
+    yMotion: 2
+    zMotion: 2
+    linearLimitSpring:
+      spring: 0
+      damper: 0
+    linearLimit:
+      limit: 0.01
+      bounciness: 0
+      contactDistance: 0
+  graspAngularLimits:
+    angularXMotion: 2
+    angularYMotion: 2
+    angularZMotion: 2
+    angularXLimitSpring:
+      spring: 0
+      damper: 0
+    lowAngularXLimit:
+      limit: 0
+      bounciness: 0
+      contactDistance: 0
+    highAngularXLimit:
+      limit: 0
+      bounciness: 0
+      contactDistance: 0
+    angularYZLimitSpring:
+      spring: 0
+      damper: 0
+    angularYLimit:
+      limit: 0
+      bounciness: 0
+      contactDistance: 0
+    angularZLimit:
+      limit: 0
+      bounciness: 0
+      contactDistance: 0
+  graspVisualizer:
+    visualize: 0
+    toggle:
+      key: 53
+      alt: 0
+      shift: 1
+      control: 0
+    scoreToM: 0.0001
+  _physicsAuthorityMode: 2
+  _networkStateVisualizer:
+    visualize: 0
+    toggle:
+      key: 57
+      alt: 0
+      shift: 1
+      control: 0

@@ -1,0 +1,17 @@
+{
+    "name": "HaptxSharedEditor",
+    "references": [
+        "GUID:20c9863c0b38cb24d845dcfcccb7e327"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

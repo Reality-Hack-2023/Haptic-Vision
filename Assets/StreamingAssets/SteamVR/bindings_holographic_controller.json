@@ -1,0 +1,14 @@
+{
+  "bindings": {
+    "/actions/haptx": {
+      "chords": [],
+      "poses": [],
+      "haptics": [],
+      "sources": [],
+      "skeleton": []
+    }
+  },
+  "controller_type": "holographic_controller",
+  "description": "",
+  "name": "Default bindings for Windows Mixed Reality Controllers"
+}

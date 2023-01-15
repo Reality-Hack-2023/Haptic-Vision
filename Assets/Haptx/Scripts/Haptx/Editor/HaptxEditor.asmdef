@@ -1,0 +1,22 @@
+{
+    "name": "HaptxEditor",
+    "rootNamespace": "",
+    "references": [
+        "Haptx",
+        "HaptxSharedEditor",
+        "HaptxShared",
+        "SteamVR",
+        "Unity.XR.OpenVR"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
