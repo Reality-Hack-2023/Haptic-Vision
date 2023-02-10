@@ -1,3 +1,9 @@
+# Haptic Vision
+
+![haptx](https://user-images.githubusercontent.com/39020723/218214123-f66f583e-3f93-461e-9d06-ebd59a3d3cc9.jpg)
+Demo and Pitch Vide at the bottom
+
+
 # Inspiration
 Visually impaired individuals face significant barriers when trying to navigate and interact with the physical world, which can lead to a lack of independence and reduced quality of life. According to WHO, there are approximately 253 million people worldwide who are visually impaired. Many common everyday tasks, such as grocery shopping, traveling, and accessing public transportation, can be difficult or even impossible for visually impaired individuals to accomplish without assistance. Currently, visually impaired individuals rely on tools such as support canes and guide dogs, but these tools have limitations. 
 
@@ -123,3 +129,12 @@ Active Scanning with Headset with on/off feature
 Smaller Headset. Make it seamless and look like normal glasses.
 Improve vision through XR glasses recalibration
 Waypoint Guidance?
+
+
+# Pitch Video (Click on the image)
+[![Watch the video](https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/346/697/datas/original.jpg)](https://youtu.be/4b5lR5_ubpw)
+
+# Demo Videos
+[Demo 1](https://photos.app.goo.gl/2GCe3nBR772Doe9V9)
+[Demo 2](https://photos.app.goo.gl/ZfDBynpsBgJS3u7w7)
+
