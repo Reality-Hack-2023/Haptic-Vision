@@ -1,7 +1,7 @@
 # Haptic Vision
 
 ![haptx](https://user-images.githubusercontent.com/39020723/218214123-f66f583e-3f93-461e-9d06-ebd59a3d3cc9.jpg)
-Demo and Pitch Vide at the bottom
+Demo and Pitch Vide0 at the bottom
 
 
 # Inspiration
