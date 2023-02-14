@@ -7,8 +7,12 @@ VR experience and haptic feedback for easy, safe navigation for visually impaire
 
 Demo and Pitch Vide0 at the bottom
 
+# Team
+This would not have been possible without the wonderful people at the Haptic Vision team. 
+![IMG_7506](https://user-images.githubusercontent.com/39020723/218876868-14bd8c83-4ce0-40ac-ae5d-9412d6a081ae.JPEG)
 
 # Inspiration
+
 Visually impaired individuals face significant barriers when trying to navigate and interact with the physical world, which can lead to a lack of independence and reduced quality of life. According to WHO, there are approximately 253 million people worldwide who are visually impaired. Many common everyday tasks, such as grocery shopping, traveling, and accessing public transportation, can be difficult or even impossible for visually impaired individuals to accomplish without assistance. Currently, visually impaired individuals rely on tools such as support canes and guide dogs, but these tools have limitations. 
 
 ### Goal
